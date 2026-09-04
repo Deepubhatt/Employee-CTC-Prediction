@@ -37,15 +37,15 @@ Two lookup files are used to convert categorical fields into numeric ones:
 
 | Model | R² (tuned) | MSE (tuned) |
 |---|---|---|
-| **Bagging Regressor** | **0.6285** | **58,250,267** |
-| XGBoost | 0.6107 | 61,043,363 |
-| Random Forest | 0.6087 | 61,360,985 |
-| AdaBoost | 0.6044 | 62,036,527 |
-| Gradient Boosting | 0.6033 | 62,205,701 |
-| Decision Tree | 0.5888 | 64,480,426 |
-| KNN | 0.5838 | 65,275,054 |
-| Lasso | 0.5757 | 66,533,531 |
-| Ridge | 0.5750 | 66,648,955 |
+| **Bagging Regressor** | **0.6285** | **58250267** |
+| XGBoost | 0.6107 | 61043363 |
+| Random Forest | 0.6087 | 61360985 |
+| AdaBoost | 0.6044 | 62036527 |
+| Gradient Boosting | 0.6033 | 62205701 |
+| Decision Tree | 0.5888 | 64480426 |
+| KNN | 0.5838 | 65275054 |
+| Lasso | 0.5757 | 66533531 |
+| Ridge | 0.5750 | 66648955 |
 
 **Bagging Regressor** performed best in both basic and tuned form. It averages predictions across many decision trees, which cuts variance and makes it more resistant to overfitting than a single tree or than boosting methods here, which didn't get the same depth of tuning due to compute limits.
 
