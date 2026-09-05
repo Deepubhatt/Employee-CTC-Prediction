@@ -45,23 +45,23 @@ Two lookup files are used to convert categorical fields into numeric ones:
 
 ## Results
 
-**R² — basic models**
+**R² — Basic Models**
 
 ![R2 comparison basic models](images/04_r2_basic_models.png)
 
-**R² — tuned models**
+**R² — Tuned Models**
 
 ![R2 comparison tuned models](images/05_r2_tuned_models.png)
 
-**MSE — basic models**
+**MSE — Basic Models**
 
 ![MSE comparison basic models](images/06_mse_basic_models.png)
 
-**MSE — tuned models**
+**MSE — Tuned Models**
 
 ![MSE comparison tuned models](images/07_mse_tuned_models.png)
 
-| Model | R2 (tuned) | MSE (tuned) |
+| Model | R2 (Tuned) | MSE (Tuned) |
 |---|---|---|
 | **Bagging Regressor** | **0.6285** | **58250267** |
 | XGBoost | 0.6107 | 61043363 |
